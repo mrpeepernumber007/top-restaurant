@@ -1,6 +1,8 @@
 import appendContent from './page-load.js'
 import setTable from './menu.js'
 
-appendContent()
+const indexTab = document.getElementById('home')
+const menuTab = document.getElementById('menu')
 
-setTable()
+indexTab.addEventListener('click', appendContent)
+menuTab.addEventListener('click', setTable)

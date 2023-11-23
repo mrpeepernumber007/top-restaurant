@@ -25,7 +25,7 @@ d3Desc.textContent = 'Calzone in the shape of a bone! The greatest food for the 
 
 
 export default function setTable() {
-    console.log('Setting table');
+    contentDiv.innerHTML = ''
     dish1.appendChild(d1Title)
     dish1.appendChild(d1Desc)
     

@@ -14,6 +14,7 @@ const contentDiv = document.getElementById('content')
 
 
 export default function appendContent() {
+    contentDiv.innerHTML = ''
     contentDiv.appendChild(img)
     contentDiv.appendChild(headLine)
     contentDiv.appendChild(copyPar)
